@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.6.7] - [2019-07-08]
+
+### Added
+
+ * Added documentation for client API (#160)
+ * Added :deserialization-properties option to the confluent serde (#157)
+
+### Fixed
+
+ * Upgrade Clojure to 1.10 (#159)
+ * Do not assume result of executing command is already a map (#164)
+ * Back-fill some tests in the partitioning namespace (#165)
+ * Fixed typo in test-machine docs (#162)
+
 ## [0.6.6] - [2019-06-20]
 
 ### Added
